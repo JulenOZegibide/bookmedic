@@ -4,7 +4,7 @@ class Database {
 	public static $db;
 	public static $con;
 	function Database(){
-		$this->user="b8ba9d94f28aff";$this->pass="a8337514";$this->host="eu-cdbr-west-02.cleardb.net";$this->ddbb="heroku_f51a3950727cd14";
+		$this->user="bedfa9a8fd763d";$this->pass="2d67e3cf";$this->host="eu-cdbr-west-02.cleardb.net";$this->ddbb="heroku_2911e8c00c5b102";
 	}
 
 	function connect(){
