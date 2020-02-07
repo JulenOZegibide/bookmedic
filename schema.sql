@@ -1,8 +1,8 @@
 /*
 * BookMedik Database
 * @author Evilnapsis
-*/
-create database bookmedik;
+
+create database bookmedik;*/
 use bookmedik; 
 set sql_mode='';
 create table user (
@@ -17,7 +17,7 @@ create table user (
 	created_at datetime
 );
 
-insert into user (username,password,is_admin,is_active,created_at) value ("admin",sha1(md5("admin")),1,1,NOW());
+insert into user (username,password,is_admin,is_active,created_at) value ("examen",sha1(md5("examen")),1,1,NOW());
 
 
 create table pacient (
